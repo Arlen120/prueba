@@ -1,0 +1,31 @@
+body {
+    font-family: serif;
+    padding: 30px;
+    background:#dfd6d6 ;
+}
+
+form, .tarea {
+    background-color: rgb(237, 216, 201);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+
+}
+
+input, textarea, select {
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(186, 136, 70);
+    color:rgb(233, 218, 200);
+    border:#dbc4c4;
+    padding: 15px;
+    cursor: pointer; 
+}
+
+
+

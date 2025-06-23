@@ -8,10 +8,32 @@
 </head>
 <body>
   <h1>Mi Lista de Tareas</h1>
-  <p>Nombre del estudiante: __________________________</p>
+  <h1><p>Nombre del estudiante: </p></h1>
+  <h1><p>Arlen Caiza</p></h1>
+
 
   <!-- Aquí irá el formulario y la lista generada con JavaScript -->
+   <form id = "formulario">
+    <input type="text" id="identificacion" placeholder="Tarea" maxlength="25" requiered/>
+    <input type="date" id="fecha" required/>
+    <textarea id="descripcion de tarea" placeholder="Descripcion de la tarea" required></textarea>
+    <select id="tipo" required>
+      <option value="">Seleccione un tipo</option>
+      <option>Universidad</option>
+      <option>Personal</option>
+      <option>Trabajo</option>
+      <option>Hobby</option>
+    </select>
+    <div>
+     <label><input type="radio" name="prioridad" value="urgentisimo" required />Urgentisimo</label> 
+     <label><input type="radio" name="prioridad" value="no tan urgente" required />No es tan urgente</label> 
+     <label><input type="radio" name="prioridad" value="no es urgente" required />No es urgente</label> 
+    </div>
+    <button type="submit">Agregar la siguiente tarea</button>
+   </form>
 
   <script src="app.js"></script>
+  <section id="listadetareas"></section>
+
 </body>
 </html>
